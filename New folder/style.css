@@ -1,0 +1,117 @@
+header {
+    background-color: rgb(25, 173, 25);
+    padding: 2em;
+}
+
+
+nav {
+    background-color: rgb(181, 212, 131);
+    padding: 2em;
+}
+
+nav a {
+    background-color: rgb(181, 212, 131);
+    color: rgb(94, 105, 228);
+    padding: 2em;
+}
+
+nav a:hover {
+    background-color: rgb(150, 231, 170);
+    color: rgb(41, 69, 230);
+    padding: 2em;
+}
+
+div.col5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: 0 2em;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: larger;
+    font-family: monospace;
+}
+body {
+    background-color: rgb(25, 173, 25);
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(181, 212, 131);
+    padding: 2em;
+    margin: 0 2em;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: monospace;
+}
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+  
+div.scroll-container img {
+    padding: 10px;
+    max-width: 100%;
+}
+
+div.col3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+footer {
+   
+    background-color: rgb(25, 173, 25);
+    color:rgb(101, 218, 101);
+    padding: 2em;
+    text-decoration: antiquewhite;
+}
+
+div.col5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(25, 173, 25);
+}
+
+@media (max-width: 600px) {
+
+    nav a {
+    background-color: rgb(181, 212, 131);
+    color: rgb(94, 105, 228);
+    padding: 1em;
+ }
+
+    div.col5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 0 2em;
+ }
+
+    div.col3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 2em
+ }
+
+    iframe {
+    height: 12px;
+    width: 12px;
+ }
+}
